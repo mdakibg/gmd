@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- magnific popup css link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- font awesome file link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- bootstrap file link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+
+    <!-- custom css file link  -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'info/css/style.css' %}">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'info/image/GMD_LOGO2.jpg' %}" type="image/x-icon">
+
+    <title>GMD | Gour Marble & Decor</title>
+  </head>
+
+  <body>
+
+    <!-- header section starts  -->
+    <header class="header fixed-top">
+
+      <a href="#" class="logo"><img src="{% static 'info/image/GMD_LOGO1.jpg' %}" alt="logo image"></a>
+
+      <nav>
+          <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#service">services</a></li>
+            <li><a href="#project">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+      </nav>
+
+      <div class="fas fa-bars"></div>
+
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+    <section id="home" class="home container-fluid p-0">
+
+        <div class="row hero">
+          <div class="col pl-3 ml-sm-5 p-0">
+            <h1 class="text1">Marble Supplier</h1>
+            <h3 class="text2">And Contractor</h3>
+          </div>
+        </div>
+
+        <!-- Counting 
+
+        <div class="counting">
+
+          <div class="box">
+            <h1 class="count" data-count="1200">1200+</h1>
+            <h3>working hours</h3>
+          </div>
+
+          <div class="box">
+            <h1 class="count" data-count="15">15+</h1>
+            <h3>awards</h3>
+          </div>
+
+          <div class="box">
+            <h1 class="count" data-count="1000">1000+</h1>
+            <h3>clients</h3>
+          </div>
+
+          <div class="box">
+            <h1 class="count" data-count="840">840+</h1>
+            <h3>projects</h3>
+          </div>
+
+        </div>
+
+        -->
+
+    </section>
+
+    <!-- home section ends -->
+
+
+    <!-- about section starts  -->
+
+    <section id="about" class="about container">
+
+        <h1 class="heading">about us</h1>
+
+        <div class="row align-items-center">
+
+          <div class="col-md-6 image">
+            <img src="{% static 'info/image/about.jpg' %}" width="90%" alt="about imgae">
+          </div>
+
+          <div class="col-md-6 info">
+            <h2>Established in Sangemarmar City of Makrana</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste reprehenderit sequi enim porro dolor explicabo distinctio voluptates exercitationem nam excepturi?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus sint totam, ea velit eius. Praesentium consequuntur sint porro, similique ut corrupti dolorem eligendi. Sunt porro quos libero illum quo officia laboriosam quisquam, nam totam?</p>
+            <div class="icons">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-whatsapp"></a>
+              <a href="#" class="fab fa-youtube"></a>
+            </div>
+            <div class="call-btn">
+              <a href="tel:+91-99287-00002">Call Now</a>
+            </div>
+          </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- service section starts  -->
+
+    <section id="service" class="service">
+
+      <h1 class="heading">Our Services</h1>
+
+      <hr class="hr-text mx-auto" data-content="Sell & Supply">
+
+      <div class="box-container mx-auto">
+
+        <div class="box">
+          <img src="{% static 'info/image/service/makrana.jpg' %}" alt="Makrana Marble">
+          <div class="overlay">Makrana Marble</div>
+        </div>
+
+        <div class="box">
+          <img src="{% static 'info/image/service/granite.jpeg' %}" alt="Granite">
+          <div class="overlay">Granite</div>
+        </div>
+
+        <div class="box">
+          <img src="{% static 'info/image/service/italian.jpeg' %}" alt="Italian Marble">
+          <div class="overlay">Italian Marble</div>
+        </div>
+
+        <div class="box">
+          <img src="{% static 'info/image/service/sandstone.jpeg' %}" alt="Sandstone">
+          <div class="overlay">Sandstone</div>
+        </div>
+
+      </div>
+
+      <hr class="hr-text mx-auto" data-content="Contractor">
+
+      <div class="box-container mx-auto">
+        <div class="box">
+          <img src="{% static 'info/image/service/flooring.jpeg' %}" alt="Flooring">
+          <div class="overlay">Flooring</div>
+        </div>
+        
+        <div class="box">
+          <img src="{% static 'info/image/service/fitting.jpeg' %}" alt="Fitting">
+          <div class="overlay">Fitting</div>
+        </div>
+
+        <div class="box">
+          <img src="{% static 'info/image/service/claddingg.jpeg' %}" alt="Wall Cladding">
+          <div class="overlay">Wall Cladding</div>
+        </div>
+
+        <div class="box">
+          <img src="{% static 'info/image/service/carvingg.jpeg' %}" alt="Carving Works">
+          <div class="overlay">Carving Works</div>
+        </div>
+
+        <div class="box">
+          <img src="{% static 'info/image/service/inlayy.jpeg' %}" alt="Inlay Works">
+          <div class="overlay">Inlay Works</div>
+        </div>
+
+        <div class="box">
+          <img src="{% static 'info/image/service/handicraft.jpeg' %}" alt="Handicrafts">
+          <div class="overlay">Handicrafts</div>
+        </div>
+
+        <div class="box">
+          <img src="{% static 'info/image/service/polishing.jpeg' %}" alt="Polishing">
+          <div class="overlay">Polishing</div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- project section starts   -->
+
+    <section id="project" class="project">
+
+      <div class="heading">our projects</div>
+      
+      <div class="box-container mx-auto">
+
+        {% for result in results %}
+      
+        <div class="box gallery gallery-container">
+          <a href="{{ result.first.image.url }}" title="{{ result.first.category }}">
+            <img src="{{ result.first.image.url }}" alt="{{ result.first.tag }}">
+            <div class="overlay">
+              <div class="text">{{ result.first.category }}</div>
+              <div class="button">See All</div>
+            </div>
+          </a>
+
+          {% for project in result.projects %}
+
+          <a href="{{ project.image.url }}" title="{{ project.category }}({{ project.tag }})"></a>
+
+          {% endfor %}
+        </div>
+
+        {% endfor %}
+
+      </div>
+      
+    </section>
+
+    <!-- project section ends -->
+
+    <!-- contact section starts  -->
+
+    <section id="contact" class="contact">
+
+      <h1 class="heading">contact us</h1>
+
+      <div class="contact-box-container mx-auto">
+
+        <div class="contact-box">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Makrana, Rajasthan, INDIA - 341505</h3>
+        </div>
+
+        <div class="contact-box">
+          <i class="fas fa-envelope"></i>
+          <h3>msadikgour@gmail.com</h3>
+        </div>
+
+        <div class="contact-box">
+          <i class="fas fa-phone"></i>
+          <h3>+91-9928700002</h3>
+        </div>
+
+      </div>
+
+      <!--
+      <div class="form-container mx-auto">
+
+        <form action="">
+
+          <div class="inputBox">
+            <input type="text" placeholder="first name">
+            <input type="text" placeholder="last name">
+          </div>
+          <input type="email" placeholder="e-mail">
+          <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+          <input type="submit" value="send">
+
+        </form>
+
+      </div>
+
+      -->
+
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="container-fluid footer">
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <h2>Reach Us</h2>
+          <div class="address">
+              <p>Gour Marble & Decor (GMD)</p>
+              <p>Makrana, Dist - Nagaur (341505)</p>
+              <p>State - Rajasthan, INDIA</p>
+          </div>
+          <div class="direction-btn">
+            <a href="https://www.google.com/maps/dir//Gour+Marble+%26+Decor/@27.037323,74.6618889,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x396b9d26899b4095:0x877f4e2049dd7734!2m2!1d74.7319292!2d27.0373403" target="_blank">
+            Get Direction
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Contact Us</h2>
+          <div class="list">
+            <a href="#"><i class="fas fa-phone-alt"></i>&nbsp;+91-99287-00002</a>
+            <a href="#"><i class="fas fa-phone-alt"></i>&nbsp;+91-98299-66195</a>
+            <a href="#"><i class="fas fa-envelope"></i>&nbsp;GourMarbleDecor@gmail.com</a>
+            <a href="#"><i class="fas fa-envelope"></i>&nbsp;msadikgour@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Follow Us</h2>
+          <div class="icons">
+            <a href="#" ><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+            <a href="#" ><i class="fab fa-whatsapp"></i><span>Whatsapp</span></a>
+            <a href="#" ><i class="fab fa-youtube"></i><span>Youtube</span></a>
+            <a href="#" ><i class="fab fa-twitter"></i><span>Twitter</span></a>
+          </div>
+        </div>
+
+      </div>
+
+      <h1 class="credit"><span>Gour Marble & Decor</span> | All Rights Reserved. </h1>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+    <!-- jquery file link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- magnific popup link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- main/custom javascript file link  -->
+    {% load static %}
+    <script src="{% static 'info/js/main.js' %}"></script>
+
+  </body>
+</html>
