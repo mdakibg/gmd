@@ -56,7 +56,7 @@
           </div>
         </div>
 
-        <!-- Counting 
+        <!-- Counting
 
         <div class="counting">
 
@@ -102,7 +102,7 @@
           </div>
 
           <div class="col-md-6 info">
-            <h2>Established in Sangemarmar City of Makrana</h2>
+            <h2>Established in Makrana, The  Sangemarmar City</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste reprehenderit sequi enim porro dolor explicabo distinctio voluptates exercitationem nam excepturi?</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus sint totam, ea velit eius. Praesentium consequuntur sint porro, similique ut corrupti dolorem eligendi. Sunt porro quos libero illum quo officia laboriosam quisquam, nam totam?</p>
             <div class="icons">
@@ -138,17 +138,17 @@
         </div>
 
         <div class="box">
-          <img src="{% static 'info/image/service/granite.jpeg' %}" alt="Granite">
+          <img src="{% static 'info/image/service/granite.jpg' %}" alt="Granite">
           <div class="overlay">Granite</div>
         </div>
 
         <div class="box">
-          <img src="{% static 'info/image/service/italian.jpeg' %}" alt="Italian Marble">
+          <img src="{% static 'info/image/service/italian.jpg' %}" alt="Italian Marble">
           <div class="overlay">Italian Marble</div>
         </div>
 
         <div class="box">
-          <img src="{% static 'info/image/service/sandstone.jpeg' %}" alt="Sandstone">
+          <img src="{% static 'info/image/service/sandstone.jpg' %}" alt="Sandstone">
           <div class="overlay">Sandstone</div>
         </div>
 
@@ -158,37 +158,37 @@
 
       <div class="box-container mx-auto">
         <div class="box">
-          <img src="{% static 'info/image/service/flooring.jpeg' %}" alt="Flooring">
+          <img src="{% static 'info/image/service/flooring.jpg' %}" alt="Flooring">
           <div class="overlay">Flooring</div>
         </div>
-        
+
         <div class="box">
-          <img src="{% static 'info/image/service/fitting.jpeg' %}" alt="Fitting">
+          <img src="{% static 'info/image/service/fitting.jpg' %}" alt="Fitting">
           <div class="overlay">Fitting</div>
         </div>
 
         <div class="box">
-          <img src="{% static 'info/image/service/claddingg.jpeg' %}" alt="Wall Cladding">
+          <img src="{% static 'info/image/service/claddingg.jpg' %}" alt="Wall Cladding">
           <div class="overlay">Wall Cladding</div>
         </div>
 
         <div class="box">
-          <img src="{% static 'info/image/service/carvingg.jpeg' %}" alt="Carving Works">
+          <img src="{% static 'info/image/service/carvingg.jpg' %}" alt="Carving Works">
           <div class="overlay">Carving Works</div>
         </div>
 
         <div class="box">
-          <img src="{% static 'info/image/service/inlayy.jpeg' %}" alt="Inlay Works">
+          <img src="{% static 'info/image/service/inlayy.jpg' %}" alt="Inlay Works">
           <div class="overlay">Inlay Works</div>
         </div>
 
         <div class="box">
-          <img src="{% static 'info/image/service/handicraft.jpeg' %}" alt="Handicrafts">
+          <img src="{% static 'info/image/service/handicraft.jpg' %}" alt="Handicrafts">
           <div class="overlay">Handicrafts</div>
         </div>
 
         <div class="box">
-          <img src="{% static 'info/image/service/polishing.jpeg' %}" alt="Polishing">
+          <img src="{% static 'info/image/service/polishing.jpg' %}" alt="Polishing">
           <div class="overlay">Polishing</div>
         </div>
       </div>
@@ -202,11 +202,11 @@
     <section id="project" class="project">
 
       <div class="heading">our projects</div>
-      
+
       <div class="box-container mx-auto">
 
         {% for result in results %}
-      
+
         <div class="box gallery gallery-container">
           <a href="{{ result.first.image.url }}" title="{{ result.first.category }}">
             <img src="{{ result.first.image.url }}" alt="{{ result.first.tag }}">
@@ -226,7 +226,7 @@
         {% endfor %}
 
       </div>
-      
+
     </section>
 
     <!-- project section ends -->
@@ -303,10 +303,10 @@
         <div class="col-md-4">
           <h2>Contact Us</h2>
           <div class="list">
-            <a href="#"><i class="fas fa-phone-alt"></i>&nbsp;+91-99287-00002</a>
-            <a href="#"><i class="fas fa-phone-alt"></i>&nbsp;+91-98299-66195</a>
-            <a href="#"><i class="fas fa-envelope"></i>&nbsp;GourMarbleDecor@gmail.com</a>
-            <a href="#"><i class="fas fa-envelope"></i>&nbsp;msadikgour@gmail.com</a>
+            <a href="tel:+91-99287-00002"><i class="fas fa-phone-alt"></i>&nbsp;+91-99287-00002</a>
+            <a href="tel:+91-98299-66195"><i class="fas fa-phone-alt"></i>&nbsp;+91-98299-66195</a>
+            <a href="mailto:GourMarbleDecor@gmail.com"><i class="fas fa-envelope"></i>&nbsp;GourMarbleDecor@gmail.com</a>
+            <a href="mailto:msadikgour@gmail.com"><i class="fas fa-envelope"></i>&nbsp;msadikgour@gmail.com</a>
           </div>
         </div>
 
@@ -314,7 +314,7 @@
           <h2>Follow Us</h2>
           <div class="icons">
             <a href="#" ><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-            <a href="#" ><i class="fab fa-whatsapp"></i><span>Whatsapp</span></a>
+            <a href="tel:+91-99287-00002" ><i class="fab fa-whatsapp"></i><span>Whatsapp</span></a>
             <a href="#" ><i class="fab fa-youtube"></i><span>Youtube</span></a>
             <a href="#" ><i class="fab fa-twitter"></i><span>Twitter</span></a>
           </div>
