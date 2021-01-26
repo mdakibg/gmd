@@ -202,6 +202,10 @@ body{
   box-shadow: 0 .3rem .5rem rgba(0,0,0,.2);
 }
 
+.about .info .call-btn a:hover{
+  background: #324563;
+}
+
 /******* SERVICES ******/
 
 .service{
