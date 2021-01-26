@@ -486,9 +486,10 @@ hr{
   margin-bottom: 0.7rem;
 }
 
-.footer .direction{
+.footer .direction-btn{
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
+  margin-top: 1rem;
 }
 
 .footer .direction-btn a{
